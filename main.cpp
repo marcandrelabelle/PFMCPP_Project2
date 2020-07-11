@@ -53,25 +53,25 @@ void variableDeclarations()
 {
     //example:
     int number = 2; //declaration of a primitive named 'number' with an initial value of '2'
-     int beats = 4;
-     int subdivisions = 16;
-     int tempo = 120;
+    int beats = 4;
+    int subdivisions = 16;
+    int tempo = 120;
 
-     char tube = 'x';
-     char head = 'a';
-     char tuning = 'c';
+    char tube = 'x';
+    char head = 'a';
+    char tuning = 'c';
 
-     bool bypassed = true;
-     bool stereo = false;
-     bool saveInPresent = true;
+    bool bypassed = true;
+    bool stereo = false;
+    bool saveInPresent = true;
 
-     float bass = 1.8f;
-     float treble = 3.3f;
-     float master = 11.f;
+    float bass = 1.8f;
+    float treble = 3.3f;
+    float master = 11.f;
 
-     double cutoff = 200.23;
-     double q = 4.33;
-     double gain = 6.66; 
+    double cutoff = 200.23;
+    double q = 4.33;
+    double gain = 6.66; 
     
     ignoreUnused(number,beats,subdivisions,tempo,tube,head,tuning,bypassed,stereo,saveInPresent,bass,treble,master,cutoff,q,gain); //passing each variable declared to the ignoreUnused() function
 }
@@ -88,86 +88,86 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 /*
  1)
  */
- bool willImakeIt(int miles = 322, float maxMoneyLeft = 47.5f)
- {
-     ignoreUnused(miles,maxMoneyLeft);
-     return {};
- }
+bool willImakeIt(int miles = 322, float maxMoneyLeft = 47.5f)
+{
+    ignoreUnused(miles,maxMoneyLeft);
+    return {};
+}
 
 /*
  2)
  */
- int numPizzaSlices(float inch, int numPeople, float size)
- {
-     ignoreUnused(inch,numPeople,size);
-     return {};
- }
+int numPizzaSlices(float inch, int numPeople,float size)
+{
+    ignoreUnused(inch,numPeople,size);
+    return {};
+}
 
 /*
  3)
  */
- void drawPoint(int x = 12 , int y = 34, int z = 127)
- {
+void drawPoint(int x = 12 , int y = 34, int z = 127)
+{
     ignoreUnused(x,y,z); 
- }
+}
      
 /*
  4)
  */
- void stretchSound(double timeSec = 3.6754, char stretchType = 'b')
- {
+void stretchSound(double timeSec = 3.6754, char stretchType = 'b')
+{
     ignoreUnused(timeSec, stretchType); 
- }
+}
 
 /*
  5)
  */
- void hardClip(float min = 0.1f, float max = 0.9f, double lowpass = 2000.233)
- {
-     ignoreUnused(min, max, lowpass);
- }
+void hardClip(float min = 0.1f, float max = 0.9f, double lowpass = 2000.233)
+{
+    ignoreUnused(min, max, lowpass);
+}
 
 /*
  6)
  */
- double speedTicketPrice(float over = 15.3f, bool happyCop = false, bool goodReason = false)
- {
+double speedTicketPrice(float over = 15.3f, bool happyCop = false, bool goodReason = false)
+{
     ignoreUnused(over, happyCop, goodReason);
     return {}; 
- }
+}
 
 /*
  7)
  */
- float gearBudget(float gigRevenue = 25.f, int numDrinks = 3, int numGigs = 1 )
- {
+float gearBudget(float gigRevenue = 25.f, int numDrinks = 3, int numGigs = 1 )
+{
     ignoreUnused(gigRevenue,numDrinks,numGigs);
     return {};
- }
+}
 
 /*
  8)
  */
- void setLfo(char lfoType, float freqSpeed = 0.1f , float mul = 20.3f)
- {
+void setLfo(char lfoType, float freqSpeed = 0.1f , float mul = 20.3f)
+{
     ignoreUnused(lfoType,freqSpeed,mul);
- }
+}
 
 /*
  9)
  */
- void makeBurger (bool cheese, bool tomato, bool bacon, bool salade)
- {
-     ignoreUnused(cheese,tomato,bacon,salade);
- }
+void makeBurger (bool cheese, bool tomato, bool bacon, bool salade)
+{
+    ignoreUnused(cheese,tomato,bacon,salade);
+}
 
 /*
  10)
  */
- void spacialize(int numSpeakers, float azimut = 192.f, int spread = 4, int numIn = 2)
- {
-     ignoreUnused(numSpeakers,azimut,spread, numIn) ;
- }
+void spacialize(int numSpeakers, float azimut = 192.f, int spread = 4, int numIn = 2)
+{
+    ignoreUnused(numSpeakers,azimut,spread, numIn) ;
+}
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
